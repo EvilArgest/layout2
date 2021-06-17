@@ -105,22 +105,27 @@ body{
 .main{
     width: 980px;
     padding: 0 10px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
-.div__news{
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.subdiv{
     width: 350px;
+}
+.div__news{
     background-color: #777777;
+    padding-bottom: 100px;
 }
 .p__title{
      font-family: 'PT Sans';
      font-size: 40px;
+     font-weight: 700;
+     font-style: normal;
+     letter-spacing: normal;
+     font-variant: normal;
+     line-height: 46px;
      color: #ffffff;
-     padding: 10px 0 38px 36px;
+     padding: 22px 0 38px 36px;
  }
 .div__news__href{
     margin-left: 34px;
@@ -136,6 +141,7 @@ body{
      color: #ffffff;
      hyphens: manual;
      margin-bottom: 30px;
+     display: block;
  }
 .span__block{
     display: block;
@@ -175,7 +181,7 @@ body{
     color: #ffffff;
 }
 .div__pixel__plus{
-    margin: 50px 0 0 59px;
+    margin: 20px 0 0 59px;
     width: 569px;
 }
 .p__company{
@@ -195,7 +201,7 @@ body{
     font-style: normal;
     letter-spacing: normal;
     line-height: 22px;
-    max-width: 544px;
+    max-width: 545px;
     text-align: left;
 }
 /*   FOOTER   */
