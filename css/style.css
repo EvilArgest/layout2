@@ -8,7 +8,6 @@
 font-family: 'PT Sans', sans-serif;     */
 }
 body{
-    overflow-x: hidden;
     height: 100%;
     min-height: 100vh;
     display: flex;
@@ -35,12 +34,13 @@ body{
     height: 100px;
 }
 .header__text{
-    font-family: 'PT Sans';
-    font-size: 30px;
-    line-height: 1.2;
+    color: #767676;
+    font-family: "Open Sans Condensed";
+    font-size: 40px;
     font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #ffffff;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 46px;
     width: 260px;
     margin-left: auto;
 }
